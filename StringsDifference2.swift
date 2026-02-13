@@ -1,4 +1,4 @@
-class StringDifference2 {
+class StringsDifference2 {
 
     func findTheDifference(_ s: String, _ t: String) -> Character {
         var count = [Character: Int]()
@@ -19,6 +19,6 @@ class StringDifference2 {
 
 }
 
-let stringDifference2 = StringDifference2()
-let result = stringDifference2.findTheDifference("abcd", "abcde")
+let stringsDifference2 = StringsDifference2()
+let result = stringsDifference2.findTheDifference("abcd", "abcde")
 print(result)
