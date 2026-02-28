@@ -1,4 +1,5 @@
 class MaximumConsecutivesInArray {
+	
     func findMaxOnes(_ nums: [Int]) -> Int {
         var count = 0
         var maxCount = 0
