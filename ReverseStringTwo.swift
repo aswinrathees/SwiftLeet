@@ -1,7 +1,7 @@
 class ReverseStringTwo {
 
-    func reverseWithKey(_ s: String, _ k: Int) {
-        var result - Array(s)
+    func reverseWithKey(_ s: String, _ k: Int) -> String {
+        var result = Array(s)
 
         for start in stride(from: 0, to: result.count, by: 2*k) {
             var left = start
