@@ -1,7 +1,7 @@
 class BinaryGapL868 {
 
     func getDistance(_ n: Int) -> Int {
-         var maxGap = 0
+        var maxGap = 0
         var prevOneIndex = -1     // position of last seen 1
         var currentIndex = 0      // bit position (from LSB)
 
