@@ -10,7 +10,7 @@ class ArrayReversal {
 			right -= 1
 		}
 
-    print("Reverse: \(s)")
+    	print("Reverse: \(s)")
 	}
 }
 
