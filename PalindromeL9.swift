@@ -1,4 +1,4 @@
-class Palindrome {
+class PalindromeL9 {
     func isPalindrome(_ x: Int) -> Bool {
         if x < 0 { return false }
         var num = x
@@ -12,6 +12,6 @@ class Palindrome {
     }
 }
 
-let palindrome = Palindrome()
+let palindrome = PalindromeL9()
 let isPalindrome = palindrome.isPalindrome(-121)
 print(isPalindrome)
