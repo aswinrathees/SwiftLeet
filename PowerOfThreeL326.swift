@@ -1,4 +1,4 @@
-class PowerOfThree {
+class PowerOfThreeL326 {
 
     func isPowerOfThree(_ n: Int) -> Bool {
         guard n >= 1 else {
@@ -15,6 +15,6 @@ class PowerOfThree {
     }
 }
 
-let powerOfThree = PowerOfThree()
+let powerOfThree = PowerOfThreeL326()
 let result = powerOfThree.isPowerOfThree(27)
 print(result)
