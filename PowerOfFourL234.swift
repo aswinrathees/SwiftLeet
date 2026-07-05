@@ -1,4 +1,4 @@
-class PowerOfFour {
+class PowerOfFourL234 {
 
     func isPowerOfFour(_ n: Int) -> Bool {
         if n <= 0 {
@@ -14,6 +14,6 @@ class PowerOfFour {
     }
 }
 
-let powerOfFour = PowerOfFour()
+let powerOfFour = PowerOfFourL234()
 let result = powerOfFour.isPowerOfFour(16)
 print(result)
