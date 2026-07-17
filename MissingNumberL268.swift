@@ -1,4 +1,4 @@
-class MissingNumber {
+class MissingNumberL268 {
 
     func getMissingNumber(_ nums: [Int]) -> Int {
         let numsCount = nums.count
@@ -10,6 +10,6 @@ class MissingNumber {
     }
 }
 
-let missingNumber = MissingNumber()
+let missingNumber = MissingNumberL268()
 let result = missingNumber.getMissingNumber([3, 0, 1])
 print(result)
