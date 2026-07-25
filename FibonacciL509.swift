@@ -1,4 +1,4 @@
-class Fibonacci {
+class FibonacciL509 {
 
     func getFibonacci(_ n: Int) -> Int {
         if n == 0 { return 0 }
@@ -15,6 +15,6 @@ class Fibonacci {
     }
 }
 
-let fibonacci = Fibonacci()
+let fibonacci = FibonacciL509()
 let result = fibonacci.getFibonacci(10)
 print(result)
