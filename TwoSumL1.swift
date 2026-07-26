@@ -1,4 +1,4 @@
-class TwoSum {
+class TwoSumL1 {
     func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var seen = [Int: Int]()
         for (index, num) in nums.enumerated() {
@@ -12,5 +12,5 @@ class TwoSum {
     }
 }
 
-let twoSum = TwoSum()
+let twoSum = TwoSumL1()
 print(twoSum.twoSum([2, 7, 11, 15], 9))  // Output: [0, 1]
