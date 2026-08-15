@@ -1,4 +1,4 @@
-class RichestCustomerWealthL1672L1672 {
+class RichestCustomerWealthL1672 {
 
     func maximumWealth(_ accounts: [[Int]]) -> Int {
         guard !accounts.isEmpty else { return 0 }
