@@ -1,4 +1,4 @@
-class RichestCustomerWealth {
+class RichestCustomerWealthL1672L1672 {
 
     func maximumWealth(_ accounts: [[Int]]) -> Int {
         guard !accounts.isEmpty else { return 0 }
@@ -7,6 +7,6 @@ class RichestCustomerWealth {
     }
 }
 
-let richestCustomer = RichestCustomerWealth()
+let richestCustomer = RichestCustomerWealthL1672()
 let wealth = richestCustomer.maximumWealth([[1, 2, 3], [3, 2, 1]])
 print(wealth)
